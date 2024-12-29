@@ -104,7 +104,6 @@ const DashboardScreen = () => {
         params: {
           category: "health",
           country: "us",
-          apiKey: "b86322363c124ab7a591171179c1897f",
         },
       });
       setHealthNews(response.data.articles);
