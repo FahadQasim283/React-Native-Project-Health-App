@@ -19,6 +19,10 @@ To get started with this project, follow these steps:
 The project is organized into the following directories:
 
 * `src`: Contains the source code for the project.
+* `src/components`: Contains reusable UI components, for now its empty.
+* `src/screens`: Contains the screens for the app.
+* `src/redux`: Contains the Redux store and actions for theme.
+* `src/services`: Contains the services for database operations.
 
 ## Contributing
 
