@@ -4,7 +4,13 @@ import { getAuth, GoogleAuthProvider, PhoneAuthProvider } from "firebase/auth";
 import { getDatabase, ref, get, set, update, remove } from "firebase/database";
 
 const firebaseConfig = {
- 
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 const app = initializeApp(firebaseConfig);
